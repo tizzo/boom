@@ -1,0 +1,14 @@
+name: Boom
+type: theme
+description: An example theme to learn from!
+package: Custom
+core: 8.x
+
+libraries:
+  - boom/global_styles
+
+regions:
+  header: header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'

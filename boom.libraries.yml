@@ -1,0 +1,11 @@
+global_styles:
+  version: 1.x
+  css:
+    theme:
+      css/styles.css: {}
+      css/print.css: { media: print }
+boom_node:
+  version: 1.x
+  css:
+    theme:
+      css/boom-node.css: {}

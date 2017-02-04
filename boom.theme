@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function boom_preprocess_node(&$variables) {
+  $variables['boom'] = 'KABLOOEY!';
+  $variables['#attached']['library'][] = 'boom/boom_node';
+}
