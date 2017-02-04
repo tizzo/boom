@@ -1,0 +1,12 @@
+name = Boom
+description = An example theme to learn from!
+package = Custom
+core = 7.x
+
+stylesheets[all][] = css/styles.css
+stylesheets[print][] = css/print.css
+
+regions[header] = Header
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[content] = Content
